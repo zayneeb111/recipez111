@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="recipezz1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header id="logo"> <div class="logo">Recipez</div>
+        
+        <div id="icons">
+            <a href="recipez.html" class="fas fa-home" id="home"></a> 
+            <a href="#"  class="fas fa-heart" id="heart"></a> 
+            <a href="#" class="fas fa-user" id="log" onclick="showlog()"></a>
+          </div> 
+    </header>
+    
+   
+
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe">
+          <img
+            src="falafel.jpeg"
+            
+          />
+          <article class="recipe-info">
+            <h2>Vegan Falafel</h2>
+            <p>
+            Healthy Vegan falafel recipe with lentils and chickpea
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>90 mins</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20mins</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+                <a href="#">Vegan</a>
+              <a href="#">Healthy</a>
+              
+              
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+         
+          
+            <div class="single-instruction">
+              <header>
+                <p> Preparation</p>
+                <div></div>
+              </header>
+              <p>
+                <ol>
+                    <li> Soak red lentils  in water for an hour</li>
+                    <li> Chop onion and parsley into little cubes</li>
+                    <li> Blend the onion, parsley and garlic until chunky</li>
+                    <li> Add the lentils </li>
+                    <li> Blend for 5 mins </li>
+                    <li> Add the seasoning </li>
+                    <li> Add the chickpea flour and stir it in </li>
+                    
+                    <li> Shape into falafel and fry in oil or bake at 200C for 20mins </li>
+
+
+                </ol>
+              </p>
+            </div>
+            
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient"> 1 cup red lentils</p>
+              <p class="single-ingredient"> Onions</p>
+              <p class="single-ingredient"> parsley </p>
+              <p class="single-ingredient"> 2 cloves of Garlic</p>
+              <p class="single-ingredient"> 4 tbsp Chickpea flour</p>
+              <p class="single-ingredient">  1 tsp each cumin , ground coriander and salt</p>
+              
+            </div>
+          
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recipez</span> Built by
+        <a href="https://www.johnsmilga.com/">Zayneb bouali</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
